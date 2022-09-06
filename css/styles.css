@@ -76,6 +76,8 @@ body {
 
 .link.current {
     color: var(--main-color);
+    border-bottom: 4px solid var(--main-color) ;
+    border-radius: 2px;
 }
 
 .container {
@@ -124,7 +126,7 @@ body {
 
 .header__link {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 26px;
 }
 
 .header__menu .header__item + .header__item {
@@ -382,6 +384,9 @@ body {
     position: absolute;
     bottom: 0;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 70px;
     width: 100%;
 
