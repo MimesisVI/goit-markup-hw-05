@@ -343,15 +343,6 @@ body {
 
 .main__work {
     padding-bottom: 94px;
-    align-self: center;
-}
-
-.main__work__item {
-    display: flex;
-}
-
-.main__work__item li + li {
-    margin-left: 30px;
 }
 
 .main__work__head {
@@ -363,6 +354,38 @@ body {
     line-height: 1.16;
     text-align: center;
     color: var(--headers-color);
+}
+
+.main__work__list{
+    display: flex;
+}
+
+.main__work__list li + li {
+    margin-left: 30px;
+}
+
+.main__worck__thumb {
+    position: relative;
+
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.main__work__text {
+    position: absolute;
+    bottom: 0;
+
+    height: 70px;
+    width: 100%;
+
+    background: rgba(47, 48, 58, 0.8);
 }
 
 /* Наша команда */
