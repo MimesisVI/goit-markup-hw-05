@@ -601,7 +601,8 @@ body {
     margin-bottom: 30px;
 }
 
-.main-port__list-2 li:hover, .main-port__list-2 li:focus {
+.main-port__link:hover, .main-port__link:focus {
+    display: block;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -621,7 +622,7 @@ body {
     height: 294px;
 }
 
-.main-port__thumb::before {
+/* .main-port__thumb::before {
     content: '';
 
     position: absolute;
@@ -650,7 +651,7 @@ body {
 .main-port__thumb:hover::before, 
 .main-port__overlay:hover::before {
     opacity: 1;
-}
+} */
 
 .main-port__list__item {
     padding: 6px 22px;
