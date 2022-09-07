@@ -83,13 +83,13 @@ body {
 }
 
 .link.current::after {
+    content: '';
+
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 4px;
-
-    content: '';
 
     background-color: var(--main-color);
     border: none;
@@ -631,7 +631,7 @@ body {
     opacity: 0;
 }
 
-/* .main-port__overlay {
+.main-port__overlay {
     position: absolute;
     left: 0;
     top: 0;
@@ -641,7 +641,7 @@ body {
 
     color: #fff;
     opacity: 0;
-}
+} 
 
 .main-port__overlay::before {
     content: '';
@@ -655,7 +655,7 @@ body {
 
     color: #fff;
     opacity: 0;
-} */
+}
 
 .main-port__thumb:hover::before, 
 .main-port__overlay:hover::before {
