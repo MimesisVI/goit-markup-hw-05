@@ -71,6 +71,9 @@ body {
 
 .link:hover, .link:focus {
     color: var(--main-color);
+}
+
+.link:hover .header__icon, .link:focus .header__icon  {
     fill: var(--main-color);
 }
 
@@ -167,6 +170,7 @@ body {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+    fill: var(--text-color);
 }
 
 .header__logo {
